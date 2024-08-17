@@ -7,6 +7,10 @@ public class CompressionAlgorithm {
         return "";
     }
 
+    public CompressionAlgorithm() {
+    }
+    
+
     @Override
     public String toString() {
         return "CompressionAlgorithm{" + '}';
