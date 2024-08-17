@@ -4,10 +4,13 @@
  */
 package algoritmos_de_compresion;
 
+import java.util.Scanner;
 
 public class CompresionMenu {
+
     CompressionAlgorithm algorithm;
-    private void menus (Scanner sc) {
+
+    private void menus(Scanner sc) {
         System.out.println("Seleccione una opcion: ");
         System.out.println("1) Para comprimir el archivo zip ");
         System.out.println("2) Para comprimir el archivo rar ");
@@ -15,20 +18,27 @@ public class CompresionMenu {
         int opc = Integer.parseInt(sc.nextLine());
         System.out.println("Digite el nombre del archivo: ");
         String filename = sc.nextLine();
-        
-        switch (opc){
+
+        switch (opc) {
             case 1:
-                algorithm =new zip();
+                algorithm = new Zip();
                 break;
             case 2:
-                algorithm =new rar();
+                algorithm = new Rar();
                 break;
             case 3:
-                algorithm =new sietezip();
+                algorithm = new Pz();
                 break;
-           
+
         }
         algorithm.compress(filename);
-    
-}
+        
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        CompresionMenu cm = new CompresionMenu();
+        cm.menus(sc);
+    }
+
 }
