@@ -8,6 +8,6 @@ package algoritmos_de_compresion;
  *
  * @author USUARIO
  */
-public class Rar CompressionAlgorithm {
+public class Rar extends CompressionAlgorithm {
     
 }
