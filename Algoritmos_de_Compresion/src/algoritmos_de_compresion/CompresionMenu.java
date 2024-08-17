@@ -22,6 +22,7 @@ public class CompresionMenu {
         switch (opc) {
             case 1:
                 algorithm = new Zip();
+                
                 break;
             case 2:
                 algorithm = new Rar();
@@ -31,7 +32,7 @@ public class CompresionMenu {
                 break;
 
         }
-        algorithm.compress(filename);
+        System.out.println(algorithm.compress(filename));
         
     }
 

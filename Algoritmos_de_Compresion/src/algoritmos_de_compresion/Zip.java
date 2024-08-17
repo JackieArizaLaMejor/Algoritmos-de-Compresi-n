@@ -9,8 +9,14 @@ package algoritmos_de_compresion;
  * @author USUARIO
  */
 public class Zip extends CompressionAlgorithm {
+   
     
   public String compress(String filename){
         return filename+".Zip";
     }
+
+  
+  
+    
+  
 }
