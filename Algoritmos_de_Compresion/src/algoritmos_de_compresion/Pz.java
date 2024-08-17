@@ -10,4 +10,8 @@ package algoritmos_de_compresion;
  */
 public class Pz extends CompressionAlgorithm  {
     
+    public String compress(String filename){
+        return "";
+    }
+    
 }

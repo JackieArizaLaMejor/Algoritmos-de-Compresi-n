@@ -10,4 +10,8 @@ package algoritmos_de_compresion;
  */
 public class Rar extends CompressionAlgorithm {
     
+    
+    public String compress(String filename){
+        return filename+".rar";
+    }
 }
