@@ -8,6 +8,6 @@ package algoritmos_de_compresion;
  *
  * @author USUARIO
  */
-public class Pz CompressionAlgorithm {
+public class Pz extends CompressionAlgorithm  {
     
 }

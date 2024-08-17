@@ -8,6 +8,7 @@ package algoritmos_de_compresion;
  *
  * @author USUARIO
  */
-public class Zip {
+public class Zip extends CompressionAlgorithm {
     
+  
 }
