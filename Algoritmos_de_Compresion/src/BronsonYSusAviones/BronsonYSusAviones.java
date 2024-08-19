@@ -9,6 +9,7 @@ public class BronsonYSusAviones {
         av1.setMatricula("HK345");
         av1.setVelocidad(300);
         av1.setNumPasajeros(299);
+        
         Pasajero av2 = new Pasajero();
         av2.setMatricula("HK346");
         av2.setVelocidad(300);
@@ -20,19 +21,21 @@ public class BronsonYSusAviones {
         
         Paquete p = new Paquete();
         p.setNombre("Carta al niño Dios");
-        p.setPeso(255000.0);
+        p.setPeso(25500.0);
         c1.addPaquete(p);
+        
         Paquete p2 = new Paquete();
-        p.setNombre("Regalos");
-        p.setPeso(255000.2);
+        p2.setNombre("Regalos");
+        p2.setPeso(255000.2);
         c1.addPaquete(p2);
+        
         Paquete p3 = new Paquete();
-        p.setNombre("Mirra");
-        p.setPeso(12000.0);
+        p3.setNombre("Mirra");
+        p3.setPeso(12000.0);
         c1.addPaquete(p3);
         
         in.addAvion(av1);
-        in.addAvion(av1);
+        in.addAvion(av2);
         in.addAvion(c1);
         in.listarAviones();
     }

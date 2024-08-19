@@ -4,8 +4,8 @@
  */
 package BronsonYSusAviones;
 
-
 public class Paquete {
+
     private String nombre;
     private double peso;
 
@@ -16,7 +16,6 @@ public class Paquete {
 
     public Paquete() {
     }
-    
 
     public String getNombre() {
         return nombre;
@@ -30,13 +29,22 @@ public class Paquete {
         return peso;
     }
 //lo mas loka der ciudad bolivar
+
     public void setPeso(double peso) {
-        this.peso = peso;
+        if (peso > 447700) {
+            System.out.println("El paquete no puede ser agregado. Carga maxima");
+            
+        } else if (peso <= 447700){
+            this.peso = peso;
+        }
+        
+        
+
     }
 
     @Override
     public String toString() {
         return "Paquete{" + "nombre=" + nombre + ", peso=" + peso + '}';
     }
-    
+
 }

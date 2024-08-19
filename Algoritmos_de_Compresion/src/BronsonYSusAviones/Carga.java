@@ -12,21 +12,21 @@ import java.util.ArrayList;
  */
 public class Carga extends Avion {
 
-    private ArrayList<Paquete> paquetes = new ArrayList<>();
+    private ArrayList<Paquete> paquete = new ArrayList<>();
     private double PESO_MAXIMO;
     private double pesoActual;
 
     public ArrayList<Paquete> getPaquete() {
-        return paquetes;
+        return paquete;
     }
 
-    public void addPaquete(Paquete paquete) {
-        paquetes.add(paquete);
+    public void addPaquete(Paquete paquetes) {
+        paquete.add(paquetes);
     }
 
     @Override
     public String toString() {
-        return "Carga{" + "paquete=" + paquetes + ", PESO_MAXIMO=" + PESO_MAXIMO + ", pesoActual=" + pesoActual + '}';
+        return "Carga{" + "paquete=" + paquete + ", PESO_MAXIMO=" + PESO_MAXIMO + ", pesoActual=" + pesoActual + '}';
     }
 
 }
