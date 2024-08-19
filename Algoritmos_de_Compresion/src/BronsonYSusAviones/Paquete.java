@@ -25,7 +25,7 @@ public class Paquete {
     public double getPeso() {
         return peso;
     }
-
+//lo mas loka der ciudad bolivar
     public void setPeso(double peso) {
         this.peso = peso;
     }
