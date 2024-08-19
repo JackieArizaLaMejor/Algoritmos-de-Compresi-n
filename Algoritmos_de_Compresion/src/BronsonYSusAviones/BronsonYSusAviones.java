@@ -21,6 +21,10 @@ public class BronsonYSusAviones {
         av2.setVelocidad(300);
         av2.setNumeroPasajeros(150);
         
+        Carga c1 = new Carga();
+        c1.setMatricula ("GOD2412");
+        c1.setVelocidad(1000);
+        
         Paquete p = new Paquete();
         p.setNombre("Carta al niño Dios");
         p.setPeso(255000.0);
