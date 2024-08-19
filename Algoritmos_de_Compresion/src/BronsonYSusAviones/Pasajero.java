@@ -15,6 +15,14 @@ public class Pasajero extends Avion{
         return numPasajeros;
     }
 
+    public Pasajero() {
+    }
+
+    public Pasajero(int velocidad, String matricula) {
+        super(velocidad, matricula);
+    }
+    
+
     public void setNumPasajeros(int numPasajeros) {
         this.numPasajeros = numPasajeros;
     }

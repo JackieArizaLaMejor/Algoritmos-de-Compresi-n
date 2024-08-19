@@ -14,6 +14,10 @@ public class Paquete {
         this.peso = peso;
     }
 
+    public Paquete() {
+    }
+    
+
     public String getNombre() {
         return nombre;
     }
